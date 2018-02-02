@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active: a
+  datasource:
+    driver-class-na;me: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/springboot_db_person
+    username: root
+    password: 123456
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  context-path: /springboot
+  port: 8082
+
